@@ -1,0 +1,57 @@
+:root{
+    --primary-CadetBlue:#5F9EA0;
+    --PRIMARY-GREYNAV:#DCDCDC;
+
+}
+.not404  {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
+
+.btn404{
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    align-items: center;
+    
+    
+}
+
+.btn404 h1{
+    margin-left: 30px;
+    padding-top: 30px;
+    color: var(--primary-CadetBlue);
+}
+.not404btn{
+color: var(--primary-CadetBlue);
+font-size: 90px;
+
+}
+
+@media(max-width:1100px){
+    .not404 img{
+        width: 100%;
+    }
+    .not404btn{
+        font-size: 70px;
+    }
+}
+@media(max-width:800px){
+    .not404 img{
+        width: 100%;
+    }
+    .not404btn{
+        font-size: 50px;
+    }
+}
+@media(min-width:280px) and (max-width:700px){
+    .btn404 h1{
+        margin-left: 10px;
+    }
+}

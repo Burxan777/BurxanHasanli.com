@@ -1,0 +1,44 @@
+[
+
+{
+    
+    "card_adi": "Html",
+    "card_text": "",
+    "card_sekli":"https://res.cloudinary.com/dzhozzyba/image/upload/v1676231966/html-5_qnp2sb.png" 
+    
+    
+} ,
+
+{
+    "caridid": "1",
+    "card_adi": "Css",
+    "card_text": " ",
+    "card_sekli":"https://res.cloudinary.com/dzhozzyba/image/upload/v1676231801/css-3_fdybil.png" 
+    
+    
+} ,
+{
+    "caridid": "2",
+    "card_adi": "JavaScript",
+    "card_text": "",
+    "card_sekli":"https://res.cloudinary.com/dzhozzyba/image/upload/v1676231997/java-script_qoemjh.png" 
+    
+    
+},
+{
+    "caridid": "3",
+    "card_adi": "ReactJs",
+    "card_text": "",
+    "card_sekli":"https://res.cloudinary.com/dzhozzyba/image/upload/v1676232031/atom_esyd7e.png" 
+    
+    
+},
+{
+   "caridid": "4",
+    "card_adi": "Bootstrap",
+    "card_text": "",
+    "card_sekli":"https://res.cloudinary.com/dzhozzyba/image/upload/v1676381737/bootstrap-1536_im55qs.png" 
+    
+    
+}
+]

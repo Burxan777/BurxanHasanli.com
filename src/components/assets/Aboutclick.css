@@ -1,0 +1,262 @@
+.Aboutmore{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 150px;
+    z-index: 2;
+    position: absolute;
+    
+
+    
+}
+.abouticonbutton{
+    background-color: transparent;
+}
+
+/* aboutmore start */
+.Aboutmore-start{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 75px;
+    color: azure;
+    margin-top: 70px;
+    
+}
+.Aboutmore-start span{
+    color: #5F9EA0;
+}
+.Aboutmore-start h1{
+    margin-bottom: 70px;
+}
+
+
+/* morecards */
+.morecards img{
+    width: 350px;
+
+}
+.morecards h1{
+    font-size: 28px;
+    
+    height: auto;
+    color: white;
+    
+    
+}
+.morecards{
+    display: flex;
+    flex-direction: column;
+background-color: black;
+margin-top: 50px;
+
+}
+
+/* morecards hover effect */
+.morecards:hover .moreme {
+    filter: blur(3px);
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+}
+.morecards:hover .morehobby {
+    filter: blur(3px);
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+}
+.morecards:hover .moreteacher {
+    filter: blur(3px);
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+}
+.morecards:hover .moreeducation {
+    filter: blur(3px);
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+}
+.morecards:hover .moreme:hover {
+    filter: blur(0px);
+    opacity: 1;
+    transform: scale(1);
+    
+}
+.morecards:hover .morehobby:hover {
+    filter: blur(0px);
+    opacity: 1;
+    transform: scale(1);
+    
+}
+.morecards:hover .moreteacher:hover {
+    filter: blur(0px);
+    opacity: 1;
+    transform: scale(1);
+    
+}
+.morecards:hover .moreeducation:hover {
+    filter: blur(0px);
+    opacity: 1;
+    transform: scale(1);
+    
+}
+/* cards */
+
+/* moreme */
+.moreme{
+    display: flex;
+    align-items: center;   
+   margin-bottom: 40px;
+   
+   padding: 40px 50px;
+   transition:0.2s all;
+   
+   
+
+}
+.moreme h1{
+    padding-left: 40px;
+    max-width: 900px;
+
+}
+/* morehobby */
+.morehobby{
+    display: flex;
+    align-items: center;   
+   margin-bottom: 40px;
+   margin-top: 50px;
+   padding: 40px 50px;
+   padding-right: 40px;
+   display: flex;
+   justify-content: flex-end;
+   transition:0.2s all;
+   
+   
+
+}
+.morehobby span{
+    color: #5F9EA0;
+}
+.morehobby a{
+    cursor: pointer;
+    color: rgb(184, 153, 153);
+}
+
+.morehobby h1{
+    max-width: 900px;
+}
+
+/* moreteacher */
+
+.moreteacher{
+    display: flex;
+    align-items: center;   
+   margin-bottom: 40px;
+   margin-top: 50px;
+   padding: 40px 50px;
+   transition:0.2s all;
+   
+   
+
+}
+.moreteacher img{
+    width: 300px;
+}
+.moreteacher h1{
+    max-width: 900px;
+    padding-left: 40px;
+   
+    
+}
+/* moreeducation */
+.moreeducation{
+    display: flex;
+    align-items: center;   
+   margin-bottom: 40px;
+   margin-top: 50px;
+   padding: 40px 50px;
+   padding-right: 40px;
+   display: flex;
+   justify-content: flex-end;
+   transition:0.2s all;
+   
+}
+.moreeducation h1{
+    max-width: 900px;
+    
+
+}
+.moreeducation img{
+    width: 450px;
+}
+
+.morecards hr{
+    color: white;
+}
+/* navabout */
+
+.navabout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#5F9EA0;
+    font-size: 50px;
+    border: none;
+    
+    
+}
+
+.calliconabout{
+    color: white;
+}
+.homeiconabout{
+    color: #5F9EA0;
+}
+
+#abouticon{
+    margin-left: 30px;
+}
+.navabout button{
+    border: none;
+}
+
+
+
+
+/* media */
+
+@media(max-width:1120px){
+    .navabout{
+        display: flex;
+        
+    }
+
+}
+@media (max-width:820px)
+{
+    #aboutcardsall{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #aboutcardsall h1{
+        margin-top: 40px;
+    }
+    .Aboutmore-start h1{
+        font-size: 70px;
+    }
+
+
+    #abouticon{
+        border: none;
+    }
+}
+
+
+
+
+
+
+
+
